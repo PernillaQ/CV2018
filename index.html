@@ -22,20 +22,22 @@
   <div class="max-width">
     <div class= "topnav" id="nav">
       <ul>
+					<a href="javascript:void(0);" class="icon"  onclick="navToggle()">&#9776;</a>
           <li><a href="#cv" onclick="clickFunctions();">CV</a></li>
           <li><a href="#lookbook" onclick="clickFunctions();">Projekt</a></li>
           <li><a href="#about" onclick="clickFunctions();">Om mig</a></li>
           <li><a href="#contact"onclick="clickFunctions();">Kontakt</a></li>
-          <li><a href="javascript:void(0);" class="icon" onclick="navToggle()">&#9776;</a></li>
       </ul>
     </div><!--End of navigation-content-->
   </div><!--End pf max-width-->
  </div><!--End of navigation-->
-
+<div class='parallax'>
+	<h1>Pernilla Qvist</h1>
+</div>
 <div class="header">
   <div class="header-content">
-      <img src="images/CV-headerimg.png">
-        <h1>Pernilla Qvist</h1>
+      <!--<img src="images/CV-headerimg.png">-->
+
   </div><!--End of header-content-->
 </div><!--End of header-->
 
@@ -47,9 +49,9 @@
       <img src="images/pernilla-round.png">
           <div class="about-text">
             <h2>Frontend Kreatör</h2>
-            <p> Hej, jag heter Pernilla Qvist och studerar frontend-utveckling vid Nackademins YH. Till hösten startar vår första praktik LIA<i> ( " Lärande i arbete " )</i>. 
+            <p> Hej, jag heter Pernilla Qvist och studerar frontend-utveckling vid Nackademins YH. I Mars startar vår andra praktik LIA<i> ( " Lärande i arbete " )</i>.
             <br>
-            Så mitt uppdag nu är att finna en spännande plats att utvecklas på och kombinera Frontend med min bakgrund inom konst och design. 
+            Så mitt uppdag nu är att finna en spännande plats att utvecklas på och kombinera Frontend med min bakgrund inom konst och design.
             </p>
             <br>
              <span><a href="#about" onclick="move();">Läs mer</a></span>
@@ -66,6 +68,19 @@
         <ul>
              <li><img src="images/HTML5.png"></li>
              <li><img src="images/sass.png"></li>
+						 <li>
+							  <svg xmlns="http://www.w3.org/2000/svg" width="58" height="58" viewBox="0 0 841.9 595.3">
+            			<g fill="#767676">
+               			<path d="M666.3 296.5c0-32.5-40.7-63.3-103.1-82.4 14.4-63.6 8-114.2-20.2-130.4-6.5-3.8-14.1-5.6-22.4-5.6v22.3c4.6 0 8.3.9 11.4 2.6 13.6 7.8 19.5 37.5 14.9 75.7-1.1 9.4-2.9 19.3-5.1 29.4-19.6-4.8-41-8.5-63.5-10.9-13.5-18.5-27.5-35.3-41.6-50 32.6-30.3 63.2-46.9 84-46.9V78c-27.5 0-63.5 19.6-99.9 53.6-36.4-33.8-72.4-53.2-99.9-53.2v22.3c20.7 0 51.4 16.5 84 46.6-14 14.7-28 31.4-41.3 49.9-22.6 2.4-44 6.1-63.6 11-2.3-10-4-19.7-5.2-29-4.7-38.2 1.1-67.9 14.6-75.8 3-1.8 6.9-2.6 11.5-2.6V78.5c-8.4 0-16 1.8-22.6 5.6-28.1 16.2-34.4 66.7-19.9 130.1-62.2 19.2-102.7 49.9-102.7 82.3 0 32.5 40.7 63.3 103.1 82.4-14.4 63.6-8 114.2 20.2 130.4 6.5 3.8 14.1 5.6 22.5 5.6 27.5 0 63.5-19.6 99.9-53.6 36.4 33.8 72.4 53.2 99.9 53.2 8.4 0 16-1.8 22.6-5.6 28.1-16.2 34.4-66.7 19.9-130.1 62-19.1 102.5-49.9 102.5-82.3zm-130.2-66.7c-3.7 12.9-8.3 26.2-13.5 39.5-4.1-8-8.4-16-13.1-24-4.6-8-9.5-15.8-14.4-23.4 14.2 2.1 27.9 4.7 41 7.9zm-45.8 106.5c-7.8 13.5-15.8 26.3-24.1 38.2-14.9 1.3-30 2-45.2 2-15.1 0-30.2-.7-45-1.9-8.3-11.9-16.4-24.6-24.2-38-7.6-13.1-14.5-26.4-20.8-39.8 6.2-13.4 13.2-26.8 20.7-39.9 7.8-13.5 15.8-26.3 24.1-38.2 14.9-1.3 30-2 45.2-2 15.1 0 30.2.7 45 1.9 8.3 11.9 16.4 24.6 24.2 38 7.6 13.1 14.5 26.4 20.8 39.8-6.3 13.4-13.2 26.8-20.7 39.9zm32.3-13c5.4 13.4 10 26.8 13.8 39.8-13.1 3.2-26.9 5.9-41.2 8 4.9-7.7 9.8-15.6 14.4-23.7 4.6-8 8.9-16.1 13-24.1zM421.2 430c-9.3-9.6-18.6-20.3-27.8-32 9 .4 18.2.7 27.5.7 9.4 0 18.7-.2 27.8-.7-9 11.7-18.3 22.4-27.5 32zm-74.4-58.9c-14.2-2.1-27.9-4.7-41-7.9 3.7-12.9 8.3-26.2 13.5-39.5 4.1 8 8.4 16 13.1 24 4.7 8 9.5 15.8 14.4 23.4zM420.7 163c9.3 9.6 18.6 20.3 27.8 32-9-.4-18.2-.7-27.5-.7-9.4 0-18.7.2-27.8.7 9-11.7 18.3-22.4 27.5-32zm-74 58.9c-4.9 7.7-9.8 15.6-14.4 23.7-4.6 8-8.9 16-13 24-5.4-13.4-10-26.8-13.8-39.8 13.1-3.1 26.9-5.8 41.2-7.9zm-90.5 125.2c-35.4-15.1-58.3-34.9-58.3-50.6 0-15.7 22.9-35.6 58.3-50.6 8.6-3.7 18-7 27.7-10.1 5.7 19.6 13.2 40 22.5 60.9-9.2 20.8-16.6 41.1-22.2 60.6-9.9-3.1-19.3-6.5-28-10.2zM310 490c-13.6-7.8-19.5-37.5-14.9-75.7 1.1-9.4 2.9-19.3 5.1-29.4 19.6 4.8 41 8.5 63.5 10.9 13.5 18.5 27.5 35.3 41.6 50-32.6 30.3-63.2 46.9-84 46.9-4.5-.1-8.3-1-11.3-2.7zm237.2-76.2c4.7 38.2-1.1 67.9-14.6 75.8-3 1.8-6.9 2.6-11.5 2.6-20.7 0-51.4-16.5-84-46.6 14-14.7 28-31.4 41.3-49.9 22.6-2.4 44-6.1 63.6-11 2.3 10.1 4.1 19.8 5.2 29.1zm38.5-66.7c-8.6 3.7-18 7-27.7 10.1-5.7-19.6-13.2-40-22.5-60.9 9.2-20.8 16.6-41.1 22.2-60.6 9.9 3.1 19.3 6.5 28.1 10.2 35.4 15.1 58.3 34.9 58.3 50.6-.1 15.7-23 35.6-58.4 50.6zM320.8 78.4z"/>
+               			<circle cx="420.9" cy="296.5" r="48.7"/>
+               		<path d="M520.5 78.1z"/>
+              		</g>
+             		</svg>
+							</li>
+							<li>
+								<svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 256 244" preserveAspectRatio="xMidYMid"><path d="M177.381 169.733c9.447-.978 16.614-9.122 16.288-18.896-.325-9.773-8.47-17.592-18.243-17.592h-.651c-10.1.326-17.918 8.796-17.592 18.895.326 4.887 2.28 9.122 5.212 12.054-11.076 21.828-28.016 37.791-53.426 51.148-17.266 9.122-35.183 12.38-53.1 10.1-14.66-1.955-26.062-8.47-33.23-19.222-10.424-15.963-11.401-33.23-2.605-50.496 6.19-12.38 15.962-21.502 22.152-26.063-1.303-4.235-3.258-11.402-4.235-16.614-47.237 34.207-42.35 80.468-28.016 102.295 10.75 16.29 32.577 26.389 56.684 26.389 6.515 0 13.03-.652 19.546-2.28 41.699-8.145 73.299-32.905 91.216-69.718zm57.336-40.397c-24.759-28.995-61.245-44.958-102.944-44.958h-5.212c-2.932-5.864-9.122-9.774-15.963-9.774h-.652C99.848 74.93 92.03 83.4 92.355 93.5c.326 9.773 8.47 17.592 18.243 17.592h.651c7.167-.326 13.357-4.887 15.963-11.077h5.864c24.759 0 48.214 7.167 69.39 21.176 16.288 10.751 28.016 24.76 34.531 41.7 5.538 13.683 5.212 27.04-.652 38.443-9.121 17.266-24.432 26.714-44.63 26.714-13.031 0-25.41-3.91-31.926-6.842-3.583 3.258-10.099 8.47-14.66 11.729 14.009 6.515 28.343 10.099 42.025 10.099 31.274 0 54.404-17.267 63.2-34.533 9.447-18.896 8.795-51.474-15.637-79.165zM69.225 175.27c.326 9.774 8.47 17.592 18.243 17.592h.652c10.099-.325 17.917-8.796 17.591-18.895-.325-9.774-8.47-17.592-18.243-17.592h-.651c-.652 0-1.63 0-2.28.325-13.357-22.153-18.895-46.26-16.94-72.323 1.302-19.547 7.818-36.488 19.22-50.497 9.447-12.054 27.69-17.918 40.07-18.243 34.531-.652 49.19 42.351 50.168 59.618 4.235.977 11.402 3.258 16.289 4.887C189.434 27.366 156.857 0 125.584 0c-29.32 0-56.359 21.176-67.11 52.451-14.985 41.7-5.212 81.771 13.031 113.372-1.628 2.28-2.606 5.864-2.28 9.448z" fill="#767676"/></svg>
+							</li>
+							<li><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 256 282" preserveAspectRatio="xMinYMin meet"><g fill="#767676"><path d="M116.504 3.58c6.962-3.985 16.03-4.003 22.986 0 34.995 19.774 70.001 39.517 104.99 59.303 6.581 3.707 10.983 11.031 10.916 18.614v118.968c.049 7.897-4.788 15.396-11.731 19.019-34.88 19.665-69.742 39.354-104.616 59.019-7.106 4.063-16.356 3.75-23.24-.646-10.457-6.062-20.932-12.094-31.39-18.15-2.137-1.274-4.546-2.288-6.055-4.36 1.334-1.798 3.719-2.022 5.657-2.807 4.365-1.388 8.374-3.616 12.384-5.778 1.014-.694 2.252-.428 3.224.193 8.942 5.127 17.805 10.403 26.777 15.481 1.914 1.105 3.852-.362 5.488-1.274 34.228-19.345 68.498-38.617 102.72-57.968 1.268-.61 1.969-1.956 1.866-3.345.024-39.245.006-78.497.012-117.742.145-1.576-.767-3.025-2.192-3.67-34.759-19.575-69.5-39.18-104.253-58.76a3.621 3.621 0 0 0-4.094-.006C91.2 39.257 56.465 58.88 21.712 78.454c-1.42.646-2.373 2.071-2.204 3.653.006 39.245 0 78.497 0 117.748a3.329 3.329 0 0 0 1.89 3.303c9.274 5.259 18.56 10.481 27.84 15.722 5.228 2.814 11.647 4.486 17.407 2.33 5.083-1.823 8.646-7.01 8.549-12.407.048-39.016-.024-78.038.036-117.048-.127-1.732 1.516-3.163 3.2-3 4.456-.03 8.918-.06 13.374.012 1.86-.042 3.14 1.823 2.91 3.568-.018 39.263.048 78.527-.03 117.79.012 10.464-4.287 21.85-13.966 26.97-11.924 6.177-26.662 4.867-38.442-1.056-10.198-5.09-19.93-11.097-29.947-16.55C5.368 215.886.555 208.357.604 200.466V81.497c-.073-7.74 4.504-15.197 11.29-18.85C46.768 42.966 81.636 23.27 116.504 3.58z"/><path d="M146.928 85.99c15.21-.979 31.493-.58 45.18 6.913 10.597 5.742 16.472 17.793 16.659 29.566-.296 1.588-1.956 2.464-3.472 2.355-4.413-.006-8.827.06-13.24-.03-1.872.072-2.96-1.654-3.195-3.309-1.268-5.633-4.34-11.212-9.642-13.929-8.139-4.075-17.576-3.87-26.451-3.785-6.479.344-13.446.905-18.935 4.715-4.214 2.886-5.494 8.712-3.99 13.404 1.418 3.369 5.307 4.456 8.489 5.458 18.33 4.794 37.754 4.317 55.734 10.626 7.444 2.572 14.726 7.572 17.274 15.366 3.333 10.446 1.872 22.932-5.56 31.318-6.027 6.901-14.805 10.657-23.56 12.697-11.647 2.597-23.734 2.663-35.562 1.51-11.122-1.268-22.696-4.19-31.282-11.768-7.342-6.375-10.928-16.308-10.572-25.895.085-1.619 1.697-2.748 3.248-2.615 4.444-.036 8.888-.048 13.332.006 1.775-.127 3.091 1.407 3.182 3.08.82 5.367 2.837 11 7.517 14.182 9.032 5.827 20.365 5.428 30.707 5.591 8.568-.38 18.186-.495 25.178-6.158 3.689-3.23 4.782-8.634 3.785-13.283-1.08-3.925-5.186-5.754-8.712-6.95-18.095-5.724-37.736-3.647-55.656-10.12-7.275-2.571-14.31-7.432-17.105-14.906-3.9-10.578-2.113-23.662 6.098-31.765 8.006-8.06 19.563-11.164 30.551-12.275z"/></g></svg></li>
              <li><img src ="images/PHP.png"></li>
              <li><img src="images/CSS3.png"</li>
              <li><img src= "images/Ai.png"></li>
@@ -83,10 +98,10 @@
 <section id= "lookbook" class="lookbook-wrapper">
   <div class="max-width">
     <div class= "lookbook">
-        
+
         <h2>Projekt</h2>
             <div class = "line-Align">
-                <div id="myProgress3">   
+                <div id="myProgress3">
                   <div id="myBar3"></div>
                 </div>
             </div>
@@ -105,7 +120,7 @@
           <a href = " https://pernillaq.github.io/Into-the-sphere/.">
           <img src = "images/WebAPI.png" alt = "Weather forecast website">
           <a href = " https://pernillaq.github.io/Into-the-sphere/.">Weather Forecast - Web API </a>
-    
+
           <a href = " https://pernillaq.github.io/Nackowskis/.">
           <img src = "images/Nackowski.png" alt = "Auction website">
           <a href = " https://pernillaq.github.io/Nackowskis/.">Nackowskis- Grupparbete - JavaScript</a>
@@ -118,26 +133,28 @@
 <section id="cv" class ="work-wrapper">
   <div class= "work-content">
       <div class="max-width">
-    
+
         <img src= "images/brain.png" alt="brain">
              <h2>ANSTÄLLNINGAR</h2>
                 <div class = "line-Align">
-                  <div id="myProgress2">   
+                  <div id="myProgress2">
                     <div id="myBar2"></div>
                   </div>
                 </div>
 
             <div class="work-text">
+							  <h3>2018 Okt - Nu - Frontend praktikant - VINNOVERA</h3>
+								<p>Internprojekt - React, Recharts. Case -Interaktiv station till Livrustkammaren - React, Redux.
                 <h3>2013 Maj - Nu - QVIST JEWELLERY</h3>
                 <p>- Silversmed, egenföretagare och webshopsinnehavare på Qvist Jewellery.</p>
                 <h3>2017 Mars - Nu - Exhibition - GALERIA ALICE FLORIANO</h3>
                 <p> Samtida smyckesutställning - Galeria Alice Floriano, Porto Alegre, Brasilien.</p>
                 <h3>2016 Nov - Dec - WALLERY STREETART GALLERY - NK.</h3>
                 <p>- Qvist Jewellery i utställningen "Passion for more" by Props by Kampmann.</p>
-                <h3>2016 Jan + Aug - FORMEX - Young designers.</h3> 
+                <h3>2016 Jan + Aug - FORMEX - Young designers.</h3>
                 <p>- Qvist Jewellery utvalt till att delta som Young designer på FORMEX mässan.</p>
                 <h3>2016 Aug - 2017 Juli- ÖSTERMALMSSKOLAN</h3>
-                <p>Fritidsledare - Kreativ verksamhet för barn.</p> 
+                <p>Fritidsledare - Kreativ verksamhet för barn.</p>
                 <h3>2015 Aug - PRECIOUS - Nordic jewellery and watch fair.</h3>
                 <p>Qvist Jewellery utvalt som av 1/8 Precious talent på Precious fair.</p>
                 <h3>2015 Mars - 2016 Augusti - Föräldraledig.</h3>
@@ -171,57 +188,68 @@
 
 
 <section class = "abouttext-wrapper" id="about">
-    <div class = "abouttext-content"> 
+    <div class = "abouttext-content">
         <div class = "max-width">
-            
+
             <h2>Om mig</h2>
               <div class = "line-Align2">
-                  <div id="myProgress">   
+                  <div id="myProgress">
                      <div id="myBar"></div>
                   </div>
               </div>
 
             <p>En kreatörs tillträde in i kodernas värld.
             <br>
-             Via en resa genom konst och metallformgivning fann jag till slut en ny oväntad passion. Den kreativitet som jag tidigare uttryckt genom måleri och silversmide fann sina vägar in i koderna. Vägen har varit brokig, men väl här faller många bitar på plats. En fascination för teknik har alltid funnits inom mig. En strävan efter effektivisering och försköning, samt en outsinnelig sökan efter utveckling och lärdom. En önskan att vilja lämna avtryck och uttryck för det som visualiserats i det inre. 
+             Via en resa genom konst och metallformgivning fann jag till slut en ny oväntad passion. Den kreativitet som jag tidigare uttryckt genom måleri och silversmide fann sina vägar in i koderna. Vägen har varit brokig, men väl här faller många bitar på plats. En fascination för teknik har alltid funnits inom mig. En strävan efter effektivisering och försköning, samt en outsinnelig sökan efter utveckling och lärdom.
             <br>
             <p>
              Vad jag önskar är en plats där jag utvecklas. En plats där idéutbyten, vägledning, uppmuntran och de mjuka värderna får plats.
-             Vad jag kan erbjuda i gengäld är ett enormt engegemang, färg och form känsla, kunskapstörst och viljan att utvecklas. 
+             Vad jag kan erbjuda i gengäld är ett enormt engegemang, färg och form känsla, kunskapstörst och viljan att utvecklas.
              En novis på många sätt, men med en hel del samlad kunskap i bagaget.
             <br>
              Som egenföretagare till en liten enskild firma har jag lärt mig mycket om att bla bearbeta bilder i Photoshop, ta fram marknadsföringsmaterial, branding, kundkontakt och mycket mer som jag tror kommer till nytta av i min nya roll som Frontend utvecklare.
             </p>
             <p>
              Nackademin
-            <br>  
+            <br>
              En stor del av utbildningen är baserad på LIA - Lärande i arbete, uppdelat i 2 perioder.
              Period 1 med start 1 Oktober 2018 - 23 Dec 2018, uppehåll för examensarbete ( Eget projekt eller case från praktikgivaren) följt av period 2, 18 Mars - 26 Maj 2019.
             <br>
-             Under utbildningen har vi gått genom kurser som : HTML, semantik, CSS med inslag av SASS, media queries, bakåt kompatibilitet , mockups, wireframes, grafisk profil, bildhantering , Photoshop, Illustrator, JavaScript 1, 2 , ( 3 innan praktik påbörjas ) , 4 ( mellan de 2 perioderna ) innehållandes bla web - API, cookies, local storage, Node JS, versionshantering ( främst Github ) , Arbetsmetodik- agila arbetssätt/scrum, CMS ( Wordpress ), PHP, MySQL , webbstandard m.m.
-            <br>
+             Under utbildningen har vi gått genom kurser som : HTML, semantik, CSS med inslag av SASS, media queries, bakåt kompatibilitet , mockups, wireframes, grafisk profil, bildhantering , Photoshop, Illustrator, JavaScript 1, 2 , 3 , ( 4 innan LIA2 påbörjas ) innehållandes bla web - API, cookies, local storage, Node JS, versionshantering ( främst Github ) , Arbetsmetodik- agila arbetssätt/scrum, CMS ( Wordpress ), PHP, MySQL , webbstandard m.m.
              Jag är engagerad i det jag gör och tycker att det ska bli väldigt intressant att få se vad det innebär på riktigt att jobba som Frontend utvecklare. Hör av er så berättar jag gärna mer.
             <br>
+				   	</p>
+						<p>Vinnovera
+            <br>
+						Vid LIA 1 på Vinnovera arbetade vi i 2 olika Reactprojekt, var av 1 av dem även inkluderade Redux. Vi arbetade även med datebibliotek som Moment, Datefns, Recharts för statestik, Node express, React slider samt olika pinchpoc lösningar. En fantastiskt utveckande och rolig praktik.
+            <br>
+						</p>
             <p>REFERENSER - Lämnas vid förfrågan.</p>
         </div><!--max-width-->
     </div>
 </section>
 <!--Contact-->
- 
+
+<div class='parallax'>
+
+
+
   <section class ="contact-wrapper" id = "contact">
 
                 <h2>Kontakt</h2>
                     <div class = "line-Align4">
-                        <div id="myProgress4">   
+                        <div id="myProgress4">
                             <div id="myBar4"></div>
                         </div>
                     </div>
-            
-              <div class ="contact-content">
+
+										   <a href= "mailto:pernilla.susanna@gmail.com">pernilla.susanna@gmail.com</a>
+</div>
+    <!--          <div class ="contact-content">
 
                       <h3>Skicka ett meddelande</h3>
-		      
-                        <form action="mailto:pernilla.susanna@gmail.com" method="post" enctype="text/plain">
+
+                       <form action="mailto:pernilla.susanna@gmail.com" method="post" enctype="text/plain">
                            <div class="inputfields">
                               <label for="name">Name</label>
                               <input type="text" name="name" id="name" placeholder="Namn"><br>
@@ -235,7 +263,7 @@
                                <br>
                             </div>
                               <input type="submit" value="Skicka">
-                        </form>
+                        </form>-->
               </div><!--contact-content-->
 </section>
 
@@ -245,9 +273,9 @@
    <div class= "footer-content">
        <img src="images/footerimg2.png" alt="Black geometric shapes">
        <p><i class="fa fa-heart-o" style="font-size:24px"></i></p>
-       <a href= "mailto:pernilla.susanna@gmail.com">pernilla.susanna@gmail.com</a>
        <p>A resume created by Pernilla Qvist</p>
      <div class="footer-a">
+			 <a href="https://github.com/PernillaQ" class="fa fa-github" style="font-size:20px"></a>"
        <a href="http://instagram.com/qvistjewellery?ref=badge" class="fa fa-instagram" style="font-size:20px"></a>
        <a href="https://se.linkedin.com/in/pernilla-qvist-11a899106" target="_blank" class= "fa fa-linkedin" style="font-size:20px"></a>
        <a href="http://facebook.com/qvistjewellery?ref=badge" class="fa fa-facebook" style="font-size:20px"></a>
