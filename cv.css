@@ -1023,6 +1023,9 @@ footer img
       margin-left: 0em;
       text-align: center;
   }
+  .knowledge-content li:nth-child(3){
+    margin-left: 0;
+  }
   .knowledge-content li img
   {
       width: 25%;
