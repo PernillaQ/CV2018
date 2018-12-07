@@ -902,8 +902,9 @@ footer img
     margin-left: 1em;
   }
   .parallax{
-    height: 350px;
-    background-image:url('./images/CV-headerimg.png');
+    height: 420px;
+    background-image:none;
+    background-color: #101416;
   }
   h1
   {
