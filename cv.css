@@ -351,7 +351,7 @@ span a:focus
 }
 .about-content img
 {
-    width: 30%;
+    width: 26%;
     margin-top: 2.5em;
 }
 .about-text
@@ -986,7 +986,7 @@ footer img
   }
  .about-content img
  {
-      width: 90%;
+      width: 70%;
       margin-top: 1em;
       padding-top: 0em;
   }
@@ -1129,77 +1129,87 @@ footer img
 
 @media only screen and (min-width: 768px) and (max-width: 1000px)
 {
-   .header img
-    {
-        height: 30em;
+   .header img{
+      height: 30em;
     }
-    .topnav
-    {
-        padding-top: 0em;
+
+    h1{
+      margin-top: 13rem;
     }
-   .topnav a
-    {
-        padding: 0.5em 2.5em;
+    .topnav{
+      padding-top: 0em;
     }
-    .topnav li
-    {
-        display: inline-block;
+
+   .topnav a{
+      padding: 0.5em 2.5em;
     }
-    .about-content img
-    {
-        width: 30%;
-        margin-top: 1em;
+
+    .topnav li{
+      display: inline-block;
     }
-    .about-text
-    {
+
+    .parallax{
+      height: 400px;
+    }
+
+    .about-content img{
+      width: 30%;
+      margin-top: 4em;
+    }
+
+    .about-text{
         width: 55%;
     }
-    .knowledge-wrapper
-    {
+
+    .knowledge-wrapper{
       padding-top: 1em;
     }
-    .knowledge-content li
-    {
+
+    .knowledge-content li{
         margin-right: 4.5em;
         margin-left: 4.5em;
         background-color: inherit;
         text-align: center;
     }
-    .knowledge-content h2
-    {
+
+    .knowledge-content h2{
         margin-left: 3.5em;
     }
-    .allSites
-    {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
+
+    .knowledge-content li:nth-child(3){
+      margin-left: 4.5em;
+    }
+
+    .allSites{
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
           -ms-flex-direction: column;
               flex-direction: column;
     }
-    .lookbook img
-    {
-        width: 80%;
-    }
-    .contact-wrapper
-    {
-        padding-bottom: 5em;
-    }
-    .contact-content
-    {
-        width: 65%;
-    }
-    form
-    {
-        width: 60%;
-    }
-    .footer-content
-    {
-        margin-top: 1em;
+
+    .lookbook img{
+      width: 80%;
     }
 
+    .contact-wrapper{
+      padding-bottom: 5em;
+      padding-top: 4em;
+    }
+
+    .contact-content{
+      width: 65%;
+    }
+
+    form{
+        width: 60%;
+    }
+
+    .footer-content{
+        margin-top: 1em;
+    }
 }
 
 @media only screen and (min-width: 1440px) and (max-width: 1799px)
